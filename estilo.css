@@ -229,6 +229,8 @@ header.abajo{
 
 #servicios .fila .servicio{
     max-width: 350px;
+    min-width: 33%;
+    min-height: 350px;
     background-color: #fff;
     padding: 30px;
     margin:0 5px;
@@ -572,7 +574,7 @@ footer a{
         background-color: rgba(0, 0, 0, .8);
         width: 100%;
         position: absolute;
-        top: 48px;
+        top: 47px;
         margin-top: 38px;
         padding: 10px 0;
     }
@@ -630,10 +632,12 @@ footer a{
 
     #servicios .fila {
         display: block;
+        margin: -0px auto;
     }
 
     #servicios .fila .servicio{
         margin: 10px auto;
+        height: 400px;
     }
 
     .contenedor-skills{
